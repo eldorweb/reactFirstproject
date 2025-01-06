@@ -3,16 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.btn-wrapper{
-  padding: 5px 40px;
-  background-color: green;
-  border: none;
-  cursor: pointer;
-}
-.btn-wrapper-dec{
-  padding: 5px 40px;
-  background-color: rgb(128, 0, 83);
-  border: none;
-  cursor: pointer;
+body{
+  background: #ffffffd8;
 }
