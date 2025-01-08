@@ -1,9 +1,11 @@
 import React from 'react'
-import logo from '../img/svg/logo.svg'
+import logo from '../../img/svg/logo.svg'
+import { ContainerNavBottom } from '../../style/styleHome'
 
 const NavBottom = () => {
     return (
-    <div className='container nav_bottom'>
+        <ContainerNavBottom>
+    <div className='nav_bottom'>
     <div className='logodiv'>
         <img src={logo}/>
         <p>Bistro Bliss</p>
@@ -17,6 +19,7 @@ const NavBottom = () => {
     </div>
     <button className='nav_bottom_btn'>Book A Table</button>
     </div>
+    </ContainerNavBottom>
     )
 }
 

@@ -1,15 +1,17 @@
 import React from 'react'
-import tel from '../allpages/img/svg/phone.svg'
-import email from '../allpages/img/svg/mail.svg'
-import facebook from '../allpages/img/svg/facebook.svg'
-import twitter from '../allpages/img/svg/twitter.svg'
-import inst from '../allpages/img/svg/inst.svg'
-import github from '../allpages/img/svg/github.svg'
+import tel from '../img/svg/phone.svg'
+import email from '../img/svg/mail.svg'
+import facebook from '../img/svg/facebook.svg'
+import twitter from '../img/svg/twitter.svg'
+import inst from '../img/svg/inst.svg'
+import github from '../img/svg/github.svg'
+import { ContainerNavtop } from '../style/styleHome'
 
 
 const NavTop = () => {
     return (
-    <div className='container nav_top'>
+        <ContainerNavtop>
+    <div className='nav_top'>
         <div className='nav_top_left'>
             <div className='nav_top_left1'>
                 <img src={tel} />
@@ -28,6 +30,7 @@ const NavTop = () => {
             <img src={github} />
         </div>
     </div>
+        </ContainerNavtop>
     )
 }
 

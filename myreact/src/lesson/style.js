@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bgimg from "../allpages/img/jpg/events.png"
+// import bgimg from "../allpages/img/jpg/events.png"
 
 export  const Container = styled.div`
     border: 1px solid black;

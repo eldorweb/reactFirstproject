@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Pages = () => {
+const Pagesheader = () => {
   return (
     <div>Pages</div>
   )
 }
 
-export default Pages
+export default Pagesheader

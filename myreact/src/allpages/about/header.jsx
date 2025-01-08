@@ -1,9 +1,9 @@
 import React from 'react'
 
-const About = () => {
+const Aboutheader = () => {
   return (
-    <div>About</div>
+    <div>header</div>
   )
 }
 
-export default About
+export default Aboutheader

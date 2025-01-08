@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { Bgimg, Button, Container, NavbarContainer } from '../style/style';
+import { Bgimg, Button, Container, NavbarContainer } from './style';
+import { Link } from 'react-router-dom';
 
 const HomeComponent = () => {
     const [count, setCount] = useState(0);
@@ -22,9 +23,15 @@ const HomeComponent = () => {
         <Button  onClick={handleIncrement}>+</Button>
         <Button $minus onClick={handleDecrement}>-</Button>
     <NavbarContainer>
+        <Link to={"/"} style={{textDecoration: "none"}}>
         <div className='men'>Home</div>
+        </Link>
+        <Link to={"/about"} style={{textDecoration: "none", color:"blue"}}>
         <div>About</div>
+        </Link>
+        <Link to={"/menu"} style={{textDecoration: "none"}}>
         <div>Menu</div>
+        </Link>
         <div>Pages</div>
         <div>Contact</div>
     </NavbarContainer>

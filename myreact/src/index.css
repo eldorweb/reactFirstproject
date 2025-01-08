@@ -1,4 +1,4 @@
-/* google fonts link */
+/*google fonts link*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
@@ -9,6 +9,13 @@
 }
 html{
   scroll-behavior: smooth;
+}
+body{
+  background: var(--white);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--neutral7);
 }
 :root{
   --blue100: #DBEAFE;
@@ -26,13 +33,7 @@ html{
   --svg_color: #F9F9F71F;
   --hover_color: #DBDFD0;
 }
-body{
-  background: var(--white);
-  font-family: "DM Sans";
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--neutral7);
-}
+/*
 .container{
   display: flex;
   align-items: center;
@@ -132,7 +133,7 @@ body{
   align-items: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url(./allpages/img/jpg/header_bgimg.png);
+  background-image: url(./img/jpg/header_bgimg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -174,4 +175,4 @@ body{
   border-color: var(--red);
   background-color: var(--red);
   color: var(--white);
-}
+} */

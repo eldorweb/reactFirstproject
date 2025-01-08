@@ -1,9 +1,11 @@
 import React from 'react'
+import { ContainerHeader } from '../../style/styleHome'
 
 
 const Header = () => {
   return (
-    <div className='container header'>
+    <ContainerHeader>
+    <div className='header'>
       <h1>Best food for your taste</h1>
       <p>Discover delectable cuisine and unforgettable moments in our welcoming, culinary haven.</p>
       <div className='header_btndiv'>
@@ -11,6 +13,7 @@ const Header = () => {
         <button>Explore Menu</button>
       </div>
     </div>
+    </ContainerHeader>
   )
 }
 
