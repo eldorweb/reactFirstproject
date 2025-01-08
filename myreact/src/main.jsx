@@ -1,16 +1,17 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import NavTop from './page1/nav_top'
-import NavBottom from './page1/nav_bottom'
-import Header from './page1/header'
-import Browse from './page1/Browse'
-import Provide from './page1/Provide'
-import Events from './page1/Events'
-import Delivery from './page1/delivery'
-import Comment from './page1/Comment'
-import Blog from './page1/Blog'
-import Footer from './page1/Footer'
+import NavTop from './components/nav_top'
+import NavBottom from './allpages/home/nav_bottom'
+import Header from './allpages/home/header'
+import Browse from './allpages/home/Browse'
+import Provide from './allpages/home/Provide'
+import Events from './allpages/home/Events'
+import Delivery from './allpages/home/delivery'
+import Comment from './allpages/home/Comment'
+import Blog from './allpages/home/Blog'
+import Footer from "./components/Footer";
+import HomeComponent from './lesson/inscDecrement'
 
 
 
@@ -26,5 +27,6 @@ createRoot(document.getElementById('root')).render(
   <Comment />
   <Blog />
   <Footer />
+  <HomeComponent />
   </StrictMode>,
 )

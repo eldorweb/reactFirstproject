@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/svg/logo.svg'
+import logo from '../img/svg/logo.svg'
 
 const NavBottom = () => {
     return (

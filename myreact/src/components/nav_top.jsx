@@ -1,10 +1,10 @@
 import React from 'react'
-import tel from '../assets/svg/phone.svg'
-import email from '../assets/svg/mail.svg'
-import facebook from '../assets/svg/facebook.svg'
-import twitter from '../assets/svg/twitter.svg'
-import inst from '../assets/svg/inst.svg'
-import github from '../assets/svg/github.svg'
+import tel from '../allpages/img/svg/phone.svg'
+import email from '../allpages/img/svg/mail.svg'
+import facebook from '../allpages/img/svg/facebook.svg'
+import twitter from '../allpages/img/svg/twitter.svg'
+import inst from '../allpages/img/svg/inst.svg'
+import github from '../allpages/img/svg/github.svg'
 
 
 const NavTop = () => {
