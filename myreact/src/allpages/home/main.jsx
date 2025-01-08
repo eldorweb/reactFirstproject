@@ -14,7 +14,6 @@ const HomeLink = () => {
     return (
         <StrictMode>
             <NavTop />
-            <NavBottom />
             <Header />
             <Browse />
             <Provide />
