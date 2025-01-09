@@ -6,10 +6,12 @@ import MenuLink from '../allpages/menu/main'
 import PagesLink from '../allpages/pages/main'
 import ContactLink from '../allpages/contact/main'
 import NavBottom from '../allpages/home/nav_bottom'
+import NavTop from './nav_top'
 
 const RouterComponent = () => {
     return (
     < >
+    <NavTop />
     <NavBottom />
     <Routes>
         <Route path='/' element ={<HomeLink />} />

@@ -12,10 +12,5 @@ import { BrowserRouter } from 'react-router-dom'
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
   <RouterComponent />
-  <HomeLink />
-  <AboutLink />
-  <ContactLink />
-  <MenuLink />
-  <PagesLink />
   </BrowserRouter>,
 )

@@ -13,7 +13,6 @@ import Footer from '../../components/Footer'
 const HomeLink = () => {
     return (
         <StrictMode>
-            <NavTop />
             <Header />
             <Browse />
             <Provide />
