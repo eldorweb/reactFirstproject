@@ -303,3 +303,284 @@ export const ContainerBrowser = styled.div`
         color: var(--red);
     }
 `
+
+export const ContainerProvide = styled.div`
+    :root{
+    --blue100: #DBEAFE;
+    --neutral2:  #F9F9F7;
+    --white: #fff;
+    --neutral3: #DBDFD0;
+    --neutral4: #ADB29E;
+    --neutral5: #737865;
+    --neutral6: #414536;
+    --neutral7: #2C2F24;
+    --neutral8: #182226;
+    --templateColor: #4D592B;
+    --red: #AD343E;
+    --logo_title: #474747;
+    --svg_color: #F9F9F71F;
+    --hover_color: #DBDFD0;
+}
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 150px;
+    padding-left: 150px;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: var(--neutral2);
+    
+    .provide{
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .provide_imgwrapper{
+        display: flex;
+    }
+    .provide_imgwrapper img{
+        border-radius: 12px;
+        width: 599px;
+    }
+    .visitcard_container{
+        margin-top: auto;
+    }
+    .provide_visitcard{
+        position: relative;
+        bottom: -50px;
+        right: 350px;
+        z-index: 1;
+        padding: 50px;
+        border-radius: 12px;
+        background-color: var(--logo_title);
+        color: var(--white);
+
+        h3{
+        font-family: "DM Sans";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: -0.72px;
+        margin-bottom: 45px;
+        }
+
+        .visit_tel, .visit_email, .visit_location{
+            display: flex;
+            gap: 20px;
+
+            img{
+                width: 24px;
+            }
+
+            p{
+                font-family: "DM Sans";
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+        .visit_tel, .visit_email{
+            margin-bottom: 25px;
+        }
+        .visit_location{
+            p{
+                width: 267px;
+            }
+        }
+
+    }
+
+    .provide_right{
+        margin-left: -250px;
+
+        h2{
+            font-family: "Playfair Display";
+            font-size: 55px;
+            font-weight: 500;
+            line-height: 60.5px;
+            width: 557px;
+            margin-bottom: 24px;
+        }
+
+        .provide_right_text1{
+            font-family: "DM Sans";
+            font-size: 18px;
+            font-weight: 500;
+            color: var(--neutral7);
+            line-height: 28px;   
+            margin-bottom: 24px;       
+        }
+        .provide_right_text2{
+            font-family: "DM Sans";
+            font-size: 16px;
+            font-weight: 400;
+            color: var(--neutral6);
+            line-height: 24px; 
+            margin-bottom: 40px;
+        }
+
+        button{
+            padding: 20px 32px;
+            border-radius: 118px;
+            border: 1.5px solid var(--neutral7) ;
+            background: transparent;
+            font-family: "DM Sans";
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            color: var(--neutral8);
+        }
+    }
+`
+
+export const ContainerEvents = styled.div`
+    :root{
+    --blue100: #DBEAFE;
+    --neutral2:  #F9F9F7;
+    --white: #fff;
+    --neutral3: #DBDFD0;
+    --neutral4: #ADB29E;
+    --neutral5: #737865;
+    --neutral6: #414536;
+    --neutral7: #2C2F24;
+    --neutral8: #182226;
+    --templateColor: #4D592B;
+    --red: #AD343E;
+    --logo_title: #474747;
+    --svg_color: #F9F9F71F;
+    --hover_color: #DBDFD0;
+}
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 150px;
+    padding-left: 150px;
+    width: 100%;
+
+    .events{
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+        h2{
+            font-family: "Playfair Display";
+            font-size: 55px;
+            font-weight: 500;
+            line-height: 60.5px;
+            color: var(--neutral7);
+            margin-bottom: 64px;
+        }
+        .events_wrapper{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            gap: 80px;
+        }
+        .events_card{
+            img{
+                border-radius: 12px;
+                width: 306px;
+                margin-bottom: 30px;
+            }
+            div{
+                font-family: "DM Sans";
+                font-size: 24px;
+                color: var(--neutral7);
+                font-weight: 700;
+                line-height: 30px;
+                margin-bottom: 10px;
+            }
+            p{
+                font-family: "DM Sans";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: var(--neutral6);
+                width: 280px;
+            }
+        }
+    }
+`
+
+export const ContainerDelivery = styled.div`
+    :root{
+    --blue100: #DBEAFE;
+    --neutral2:  #F9F9F7;
+    --white: #fff;
+    --neutral3: #DBDFD0;
+    --neutral4: #ADB29E;
+    --neutral5: #737865;
+    --neutral6: #414536;
+    --neutral7: #2C2F24;
+    --neutral8: #182226;
+    --templateColor: #4D592B;
+    --red: #AD343E;
+    --logo_title: #474747;
+    --svg_color: #F9F9F71F;
+    --hover_color: #DBDFD0;
+}
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 150px;
+    padding-left: 150px;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: var(--neutral2);
+    .delivery{
+        display: flex;
+        align-items: center;
+    }
+
+    .delivery_imgwrapper{
+        display: flex;
+        gap: 24px;
+            .delivery_imgcart{
+                position: relative;
+                bottom: -60px;
+            }
+    }
+    .delivery_textwrapper{
+        h2{
+            font-family: "Playfair Display";
+            font-size: 55px;
+            font-weight: 500;
+            line-height: 60.5px;
+            color: var(--neutral7);
+            margin-bottom: 20px;
+            width: 461px;
+        }
+        .delivery_p{
+            font-family: "DM Sans";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: var(--neutral6);
+            margin-bottom: 52px;
+        }
+        .delivery_iconcard{
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            img{
+                background-color: var(--red);
+                border-radius: 50%;
+                padding: 7px;
+                margin-right: 20px;
+            }
+            p{
+                font-family: "DM Sans";
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 20px;
+                color: var(--neutral7);
+            }
+        }
+    }
+`
