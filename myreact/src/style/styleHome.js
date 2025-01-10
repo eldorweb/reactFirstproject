@@ -584,3 +584,86 @@ export const ContainerDelivery = styled.div`
         }
     }
 `
+
+export const ContainerComment = styled.div`
+    :root{
+    --blue100: #DBEAFE;
+    --neutral2:  #F9F9F7;
+    --white: #fff;
+    --neutral3: #DBDFD0;
+    --neutral4: #ADB29E;
+    --neutral5: #737865;
+    --neutral6: #414536;
+    --neutral7: #2C2F24;
+    --neutral8: #182226;
+    --templateColor: #4D592B;
+    --red: #AD343E;
+    --logo_title: #474747;
+    --svg_color: #F9F9F71F;
+    --hover_color: #DBDFD0;
+}
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 150px;
+    padding-left: 150px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 135px;
+    
+    .comment{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h2{
+            font-family: "Playfair Display";
+            font-size: 55px;
+            font-weight: 500;
+            color: var(--neutral7);
+            margin-bottom: 64px;
+        }
+        .comment_wrapper{
+            display: flex;
+            gap: 24px;
+
+            .comment_card{
+                padding: 45px 35px;
+                border-radius: 12px;
+                background-color: var(--neutral2);
+                h3{
+                    color: var(--red);
+                    font-family: "DM Sans";
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    margin-bottom: 24px;
+                }
+                p{
+                    font-family: "DM Sans";
+                    font-size: 18px;
+                    color: var(--neutral6);
+                    font-weight: 400;
+                    line-height: 28px;
+                    margin-bottom: 64px;
+                }
+                .comment_card_people{
+                    display: flex;
+                    align-items: center;
+                    img{
+                        margin-right: 20px;
+                        width: 70px;
+                    }
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        
+                    }
+                }
+
+            }
+
+        }
+    }
+`
