@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import headerLogo from "../img/jpg/header_bgimg.png"
+import { Link } from "react-router-dom";
 
 export const ContainerNavtop = styled.div`
 :root{
@@ -941,5 +942,36 @@ export const ContainerFooter = styled.div`
             color: var(--neutral4);
         }
     }
+`
+export const ContainerMenu =styled.div`
+:root{
+    --blue100: #DBEAFE;
+    --neutral2:  #F9F9F7;
+    --white: #fff;
+    --neutral3: #DBDFD0;
+    --neutral4: #ADB29E;
+    --neutral5: #737865;
+    --neutral6: #414536;
+    --neutral7: #2C2F24;
+    --neutral8: #182226;
+    --templateColor: #4D592B;
+    --red: #AD343E;
+    --logo_title: #474747;
+    --svg_color: #F9F9F71F;
+    --hover_color: #DBDFD0;
+}
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 150px;
+    padding-left: 150px;
+    width: 100%;
+    padding-top: 85px;
+    padding-bottom: 133px;
 
 `
+export const LinkChange = styled(Link)`
+text-decoration: none;
+color: black;
+` 
