@@ -7,6 +7,7 @@ import PagesLink from '../allpages/pages/main'
 import ContactLink from '../allpages/contact/main'
 import NavBottom from '../allpages/home/nav_bottom'
 import NavTop from './nav_top'
+import Footer from './Footer'
 
 const RouterComponent = () => {
     return (
@@ -20,6 +21,7 @@ const RouterComponent = () => {
         <Route path='/pages' element={<PagesLink />}/>
         <Route path='/contact' element={<ContactLink />} />
     </Routes>
+    <Footer />
     </>
     )
 }

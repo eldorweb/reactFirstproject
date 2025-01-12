@@ -20,7 +20,6 @@ const HomeLink = () => {
             <Delivery />
             <Comment />
             <Blog />
-            <Footer />
         </StrictMode>
     )
 }
