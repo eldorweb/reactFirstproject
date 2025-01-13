@@ -88,6 +88,7 @@ export const ContainerNavBottom = styled.div`
     padding-right: 150px;
     padding-left: 150px;
     width: 100%;
+    background-color: var(--neutral2);
 
     .nav_bottom{
     padding-top: 29px;
@@ -1050,7 +1051,13 @@ export const ContainerMenu =styled.div`
     }
 
 `
+
+
+
+
+
 export const LinkChange = styled(Link)`
 text-decoration: none;
 color: black;
 ` 
+
