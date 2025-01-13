@@ -969,6 +969,85 @@ export const ContainerMenu =styled.div`
     width: 100%;
     padding-top: 85px;
     padding-bottom: 133px;
+    .menu{
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        h1{
+            font-family: "Playfair Display";
+            font-size: 100px;
+            font-weight: 400;
+            line-height: 96px;
+            color: var(--neutral7);
+            margin-bottom: 20px;
+        }
+        .p{
+            width: 557px;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+            color: var(--neutral6);
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .div_wrapper{
+            display: flex;
+            gap: 15px;
+            margin-bottom: 88px;
+            button{
+                border-radius: 50px;
+                background-color: transparent;
+                border: 1px solid var(--neutral3);
+                width: 150px;
+                height: 48px;
+
+            }
+            button:hover{
+                background-color: var(--red);
+                color: var(--white);
+            }
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 24px;
+            text-align: center;
+            .grid_card{
+                border-radius: 12px;
+                border: 1.5px solid var(--neutral3);
+                width: 307px;
+                img{
+                    width: 306px;
+                    margin-bottom: 30px;
+                    border-radius: 12px 12px 0px 0px;
+                }
+                h3{
+                    color: var(--red);
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    margin-bottom: 15px;
+                }
+                div{
+                    color: var(--neutral7);
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 26px;
+                    margin-bottom: 15px;
+                }
+                p{
+                    color: var(--neutral6);
+                    font-size: 16px;
+                    font-size: 400;
+                    line-height: 24px;
+                    margin-bottom: 34px;
+                }
+            }
+        }
+    }
 
 `
 export const LinkChange = styled(Link)`
