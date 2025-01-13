@@ -21,7 +21,7 @@ const RouterComponent = () => {
         <Route path='/menu' element ={<MenuLink />} />
         <Route path='/pages' element={<PagesLink />}/>
         <Route path='/contact' element={<ContactLink />} />
-        <Route path='/detail/:id' element = {<Detail/>}/>
+        <Route path='/detail' element = {<Detail/>}/>
     </Routes>
     <Footer />
     </>
