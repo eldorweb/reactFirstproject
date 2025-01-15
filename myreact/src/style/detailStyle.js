@@ -48,6 +48,9 @@ export const ContainerDetail = styled.div`
         }
         .meal{
             width: 1161px;
+            height: 1000px;
+            object-fit: cover;
+            object-position: center;
             border-radius: 12px 12px 0px 0px;
             margin-bottom: 25px;
             margin-bottom: 48px;

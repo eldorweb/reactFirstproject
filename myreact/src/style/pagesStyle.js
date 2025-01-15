@@ -60,10 +60,14 @@ export const ContainerArticle = styled.div`
                 border: 1px solid var(--neutral2);
                 box-shadow: 0px 2.979px 59.574px 0px rgba(0, 0, 0, 0.08);
                 width: 307px;
+                transition: transform 0.5s ease;
                 img{
                     width: 306px;
+                    height: 250px;
                     border-radius: 12px 12px 0px 0px;
                     margin-bottom: 20px;
+                    object-fit: cover;
+                    object-position: center;
                 }
                 p{
                     padding-left: 25px;
@@ -82,6 +86,10 @@ export const ContainerArticle = styled.div`
                     width: 288px;
                 }
             }
+        }
+        .link:hover{
+            transform: scale(1.04);
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
         }
     }
 

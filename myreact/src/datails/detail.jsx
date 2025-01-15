@@ -1,8 +1,6 @@
 import React from 'react'
 import {useParams} from 'react-router-dom'
 import { ContainerDetail } from '../style/detailStyle'
-import meal from '../img/menupng/menu1.png'
-import meal1 from '../img/menupng/menu2.png'
 import { MenuMocbar } from '../mocdata/menuMoc'
 
 const Detail = () => {
@@ -11,21 +9,24 @@ const Detail = () => {
   const data = MenuMocbar.find((value)=> value.id === Number(id));
   console.log(data);
   return (
-    // {data.cost}
-    // {data.type}
     <ContainerDetail>
       <div className='detail'>
         <h2>
-        {data.menu.cost}
-        The secret tips & tricks to prepare a perfect burger & pizza for our customers
+        How to make &{data.menu.type}&.
         </h2>
-        <img src={meal} className='meal'/>
+        <img src={data.menu.photo} className='meal'/>
         <div className='wrapper'>
         <div className='subtitle'>
-        What do you need to prepare a home-made burger?
+        What are the right ingredients to make it delicious?
         </div>
         <p className='text'>
-        Creating the perfect burger and pizza is an art, combining ingredients, techniques, and passion to craft dishes that truly delight the palate. Today, we'll unveil some closely guarded secrets and insider tips for mastering these beloved staples of the culinary world.
+        {data.menu.ing}
+        </p>
+        <div className='subtitle'>
+          Preparation:
+        </div>
+        <p className='text'>
+          {data.menu.prep}
         </p>
         <ol className='ul'>
           <li><b>Quality Beef:</b> The heart of a perfect burger is top-notch beef. Opt for fresh, high-quality ground beef with a fat content of about 20% for the juiciest, most flavorful results.</li>
@@ -35,18 +36,13 @@ const Detail = () => {
           <li><b>Resting:</b> Allow your cooked burgers to rest for a few minutes before serving. This lets the juices redistribute throughout the patty, ensuring a moist and flavorful bite.</li>
         </ol>
         <div className='subtitle'>
-        What are the right ingredients to make it delicious?
+        Health Benefits:
         </div>
-        <p className='text'>Creating the perfect burger and pizza is an art, combining ingredients, techniques, and passion to craft dishes that truly delight the palate. Today, we'll unveil some closely guarded secrets and insider tips for mastering these beloved staples of the culinary world.</p>
-        <ol className='ul'>
-          <li><b>Quality Beef:</b> The heart of a perfect burger is top-notch beef. Opt for fresh, high-quality ground beef with a fat content of about 20% for the juiciest, most flavorful results.</li>
-          <li><b>Seasoning:</b> Simplicity is key here. A generous pinch of salt and black pepper just before cooking will enhance the beef's natural flavors without overshadowing them.</li>
-          <li><b>Don’t Overwork the Meat:</b> When forming your patties, be gentle. Overworking the meat can lead to dense, tough burgers. You want a patty that's firm enough to hold together, but not compressed.</li>
-          <li><b>Cooking:</b> High heat is crucial. Whether you're grilling or pan-searing, make sure your cooking surface is hot enough to form a nice crust on the patty, sealing in those delicious juices.</li>
-          <li><b>Resting:</b> Allow your cooked burgers to rest for a few minutes before serving. This lets the juices redistribute throughout the patty, ensuring a moist and flavorful bite.</li>
-        </ol>
+        <p className='text'>
+          {data.menu.benefit}
+        </p>
         </div>
-        <img src={meal1} className='meal'/>
+        <img src={data.menu.photo2} className='meal'/>
         <div className='wrapper'>
         <div className='subtitle'>
         What are the right ingredients to make it delicious?
