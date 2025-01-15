@@ -1020,8 +1020,13 @@ export const ContainerMenu =styled.div`
                 border-radius: 12px;
                 border: 1.5px solid var(--neutral3);
                 width: 307px;
+                transition: transform 0.5s ease;
+                
                 img{
                     width: 306px;
+                    height: 250px;
+                    object-fit: cover;
+                    object-position: center;
                     margin-bottom: 30px;
                     border-radius: 12px 12px 0px 0px;
                 }
@@ -1047,6 +1052,10 @@ export const ContainerMenu =styled.div`
                     margin-bottom: 34px;
                 }
             }
+        }
+        .grid_card:hover{
+                    transform: scale(1.04);
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
         }
     }
 
