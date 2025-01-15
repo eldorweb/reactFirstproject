@@ -1,13 +1,22 @@
 import React from 'react'
+import {useParams} from 'react-router-dom'
 import { ContainerDetail } from '../style/detailStyle'
 import meal from '../img/menupng/menu1.png'
 import meal1 from '../img/menupng/menu2.png'
+import { MenuMocbar } from '../mocdata/menuMoc'
 
 const Detail = () => {
+  let {id} = useParams();
+  console.log("detail:", MenuMocbar)
+  const data = MenuMocbar.find((value)=> value.id === Number(id));
+  console.log(data);
   return (
+    // {data.cost}
+    // {data.type}
     <ContainerDetail>
       <div className='detail'>
         <h2>
+        {data.menu.cost}
         The secret tips & tricks to prepare a perfect burger & pizza for our customers
         </h2>
         <img src={meal} className='meal'/>
