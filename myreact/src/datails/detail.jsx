@@ -5,14 +5,12 @@ import { MenuMocbar } from '../mocdata/menuMoc'
 
 const Detail = () => {
   let {id} = useParams();
-  console.log("detail:", MenuMocbar)
   const data = MenuMocbar.find((value)=> value.id === Number(id));
-  console.log(data);
   return (
     <ContainerDetail>
       <div className='detail'>
         <h2>
-        How to make &{data.menu.type}&.
+        How to make & {data.menu.type} &.
         </h2>
         <img src={data.menu.photo} className='meal'/>
         <div className='wrapper'>

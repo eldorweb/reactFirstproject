@@ -11,7 +11,7 @@ const Pagesheader = () => {
         <div className='grid'>
         {
           ArticleMoc.map((value) => {
-            return <ArtcileLink className='link' key={value.id} to={`./detail/${value.id}`}>
+            return <ArtcileLink className='link' key={value.id} to={`./articledetail/${value.id}`}>
           <img src={value.article.photo} alt='none' />
           <p>{value.article.date || "none"}</p>
           <div className='div'>{value.article.title || "none"}</div>

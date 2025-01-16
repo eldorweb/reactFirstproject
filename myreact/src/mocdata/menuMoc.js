@@ -33,8 +33,12 @@ export const MenuMocbar = [
         menu: {
             photo: 'https://images.unsplash.com/photo-1652465485213-eb37cb92a34d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8fDA%3D',
             cost: '$ 7.25',
+            photo2: "https://images.unsplash.com/photo-1486947799489-3fabdd7d32a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWFydGluZXolMjBDb2NrdGFpbHxlbnwwfHwwfHx8MA%3D%3D",
             type: "Martinez Cocktail",
             word: "Made with eggs, lettuce, salt, oil and other ingredients.",
+            ing: "1 1/2 oz gin, 1 oz sweet vermouth, 1/4 oz maraschino liqueur, 2 dashes of orange bitters, Lemon or orange peel for garnish",
+            prep:"To make a Martinez cocktail, combine gin, sweet vermouth, maraschino liqueur, and orange bitters in a mixing glass filled with ice. Stir the mixture for about 20-30 seconds until well chilled. Strain it into a chilled martini or coupe glass. Garnish with a twist of lemon or orange peel by squeezing the peel over the glass to release its oils, then dropping it in for added aroma. Enjoy this classic cocktail as a sophisticated aperitif.",
+            benefit: "While alcohol should be consumed in moderation, the botanicals in gin and vermouth may have antioxidant properties, potentially reducing inflammation and supporting heart health. The citrus garnish can provide a small dose of vitamin C and enhance the drink’s refreshing qualities. Remember to enjoy responsibly.",
             
     },
     },
@@ -42,9 +46,13 @@ export const MenuMocbar = [
         id: 4,
         menu: {
             photo: 'https://images.unsplash.com/photo-1657053460900-3a12f32b592f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJlc3RhdXJhbnQlMjBmb29kfGVufDB8fDB8fHww',
+            photo2:"https://plus.unsplash.com/premium_photo-1664205766204-d622fa405a8d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QnV0dGVyc2NvdGNoJTIwQ2FrZXxlbnwwfHwwfHx8MA%3D%3D",
             cost: '$ 20.99',
             type: "Butterscotch Cake",
             word: "Made with eggs, lettuce, salt, oil and other ingredients.",
+            ing:"2 cups all-purpose flour, 1 cup granulated sugar, 1/2 cup unsalted butter, softened, 3 large eggs, 1 cup butterscotch sauce (store-bought or homemade, 1 1/2 tsp baking powder, 1/2 cup whole milk, A pinch of salt",
+            prep:"Preheat your oven to 350°F (175°C). Grease and flour a cake pan to prevent sticking. In a large mixing bowl, cream the butter and sugar together until light and fluffy. Add eggs one at a time, beating well after each addition. In a separate bowl, sift together the flour, baking powder, and salt. Gradually add the dry ingredients to the wet mixture, alternating with milk, until a smooth batter forms. Stir in half of the butterscotch sauce. Pour the batter into the prepared pan and bake for 30-35 minutes, or until a toothpick inserted into the center comes out clean. Let the cake cool completely before drizzling the remaining butterscotch sauce on top.",
+            benefit:"While butterscotch cake is an indulgent treat, it can be enjoyed as part of a balanced diet. Its carbohydrate content provides a quick energy boost, while eggs and butter contribute essential fats and proteins. Pairing it with nuts or whole wheat flour can enhance its nutritional profile by adding fiber and healthy fats.",
             
     },
     },
@@ -52,10 +60,13 @@ export const MenuMocbar = [
         id: 5,
         menu: {
             photo: 'https://images.unsplash.com/photo-1652690772703-0461a655643d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJlc3RhdXJhbnQlMjBmb29kfGVufDB8fDB8fHww',
+            photo2:"https://images.unsplash.com/photo-1656936611703-a1ede070073c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWludCUyMExlbW9uYWRlfGVufDB8fDB8fHww",
             cost: '$ 5.89',
             type: "Mint Lemonade",
             word: "Made with eggs, lettuce, salt, oil and other ingredients.",
-            
+            ing: "1/2 cup fresh mint leaves, Juice of 2 lemons, 2 tbsp sugar or honey (adjust to taste), 3 cups cold water or soda water, Ice cubes, Mint sprigs and lemon slices for garnish",
+            prep:"To prepare mint lemonade, start by blending fresh mint leaves, lemon juice, and sugar or honey with a small amount of water until smooth. Strain the mixture through a fine sieve to remove any pulp. Fill a glass with ice cubes and pour the strained liquid over the ice. Top with cold water or soda water, stirring gently to combine. Garnish with a sprig of mint and a lemon slice for a refreshing presentation.",
+            benefit:"Mint lemonade is a hydrating beverage loaded with health benefits. Lemons are rich in vitamin C, which supports immune function and skin health. Mint aids digestion and has a cooling effect on the body, making this drink ideal for hot weather. Using honey as a sweetener can add antioxidants and antibacterial properties.",
     },
     },
     {
@@ -65,6 +76,10 @@ export const MenuMocbar = [
             cost: '$ 18.05',
             type: "Chocolate Icecream",
             word: "Made with eggs, lettuce, salt, oil and other ingredients.",
+            photo2:"https://plus.unsplash.com/premium_photo-1674819647276-c93c08795554?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Q2hvY29sYXRlJTIwSWNlY3JlYW18ZW58MHx8MHx8fDA%3D",
+            ing:"2 cups heavy cream, 1 cup whole milk, 1 tsp vanilla extract, 4 oz dark chocolate, melted, 1/2 cup cocoa powder, 3/4 cup granulated suga",
+            prep:"In a medium saucepan, combine milk, sugar, and cocoa powder. Heat over medium heat, stirring constantly until the sugar dissolves and the mixture is smooth. Remove from heat and stir in melted dark chocolate. Allow the mixture to cool completely, then stir in heavy cream and vanilla extract. Pour the mixture into an ice cream maker and churn according to the manufacturer’s instructions. Transfer to an airtight container and freeze until firm. Serve scooped in bowls or cones.",
+            benefit:"Chocolate ice cream can be a comforting treat when enjoyed in moderation. Dark chocolate contains flavonoids, which have been shown to improve heart health and cognitive function. The calcium in milk and cream supports bone strength. Opting for high-quality dark chocolate with minimal added sugar enhances the nutritional value.",
             
     },
     },
@@ -75,6 +90,10 @@ export const MenuMocbar = [
             cost: '$ 12.55',
             type: "Cheese Burger",
             word: "Made with eggs, lettuce, salt, oil and other ingredients.",
+            photo2:"https://images.unsplash.com/photo-1603893662172-99ed0cea2a08?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q2hlZXNlJTIwQnVyZ2VyfGVufDB8fDB8fHww",
+            ing:"1 lb ground beef (80% lean, 4 slices of cheddar or American cheese, Salt and black pepper, Condiments: ketchup, mustard, mayonnaise, Pickles (optional), Lettuce, tomato, and onion slices, 4 burger buns",
+            prep:"Season the ground beef with salt and pepper, then divide it into four equal portions. Shape each portion into a patty, pressing gently to maintain thickness. Preheat a grill or skillet over medium-high heat. Cook the patties for 3-4 minutes per side, or until the desired level of doneness is reached. During the last minute of cooking, place a slice of cheese on each patty to melt. Toast the burger buns lightly and assemble with lettuce, tomato, onion, and your preferred condiments. Serve hot with a side of fries or a salad.",
+            benefit:"Cheeseburgers provide a substantial source of protein and essential amino acids. The cheese adds calcium and vitamin D, supporting bone health. Including fresh vegetables like lettuce and tomatoes boosts fiber and vitamin intake. For a healthier option, consider using whole-grain buns and leaner beef.",
             
     },
     },
@@ -85,7 +104,10 @@ export const MenuMocbar = [
             cost: '$ 12.99',
             type: "Classic Waffles",
             word: "Made with eggs, lettuce, salt, oil and other ingredients.",
-            
+            photo2:"https://plus.unsplash.com/premium_photo-1695028377773-e3673040f2cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2xhc3NpYyUyMFdhZmZsZXN8ZW58MHx8MHx8fDA%3D",
+            ing:"2 cups all-purpose flour, 2 tsp baking powder, 1 tsp vanilla extract, 1/3 cup unsalted butter, melted, 1 3/4 cups whole milk, 2 large eggs, 1/4 cup granulated sugar",
+            prep:"Preheat a waffle iron and lightly grease it with cooking spray or butter. In a large bowl, whisk together flour, baking powder, and sugar. In a separate bowl, beat the eggs and combine with milk, melted butter, and vanilla extract. Gradually add the wet ingredients to the dry ingredients, mixing until just combined (do not overmix, as this can make the waffles dense). Pour the batter into the preheated waffle iron, ensuring it spreads evenly to the edges. Close the lid and cook for 3-5 minutes, or until the waffles are golden brown and crispy. Serve hot with your favorite toppings, such as maple syrup, fresh fruit, whipped cream, or powdered sugar.",
+            benefit:"Classic waffles are a versatile breakfast option that can be made more nutritious by incorporating whole-grain flour or adding toppings like fresh fruits and nuts. They provide carbohydrates for energy and some protein from the eggs and milk. Including nutrient-rich toppings such as berries or a drizzle of honey can add antioxidants and natural sweetness, making them a balanced and satisfying choice for a morning meal or brunch.",
     },
     }
 ]

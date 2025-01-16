@@ -9,6 +9,7 @@ import NavBottom from '../allpages/home/nav_bottom'
 import NavTop from './nav_top'
 import Footer from './Footer'
 import Detail from '../datails/detail'
+import ArticleDetail from '../datails/articleDetail'
 
 const RouterComponent = () => {
     return (
@@ -22,7 +23,7 @@ const RouterComponent = () => {
         <Route path='/pages' element={<PagesLink />}/>
         <Route path='/contact' element={<ContactLink />} />
         <Route path='/menu/detail/:id' element = {<Detail/>}/>
-        <Route path='/pages/detail/:id' element = {<Detail/>}/>
+        <Route path='/pages/articledetail/:id' element = {<ArticleDetail/>}/>
     </Routes>
     <Footer />
     </>
