@@ -64,6 +64,7 @@ export const ContainerNavtop = styled.div`
 }
 }
 `
+
 export const ContainerNavBottom = styled.div`
 :root{
     --blue100: #DBEAFE;
@@ -128,6 +129,7 @@ export const ContainerNavBottom = styled.div`
     line-height: 24px;
     padding: 4px 16px;
     border-radius: 34px;
+    text-decoration: none;
 }
 .nav_bottom_list p:hover{
     background-color: var(--hover_color);
@@ -143,6 +145,7 @@ export const ContainerNavBottom = styled.div`
     border: 1.5px solid var(--neutral7);
     background-color: transparent;
     cursor: pointer;
+    text-decoration: none;
 }
 .nav_bottom_btn:hover{
     border-color: var(--neutral7);

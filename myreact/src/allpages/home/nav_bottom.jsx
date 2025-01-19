@@ -1,8 +1,7 @@
 import React from 'react'
 import logo from '../../img/svg/logo.svg'
-import { ContainerNavBottom } from '../../style/styleHome'
+import { ContainerNavBottom, LinkChange } from '../../style/styleHome'
 import { Link } from 'react-router-dom'
-import RouterComponent from '../../components/router'
 
 const NavBottom = () => {
     return (
@@ -13,21 +12,21 @@ const NavBottom = () => {
         <p>Bistro Bliss</p>
     </div>
     <div className='nav_bottom_list'>
-    <Link to={'/'} style={{textDecoration :"none"}}>
+    <LinkChange to={'/'}>
     <p>Home</p>
-    </Link>
-    <Link to={'/about'} style={{textDecoration: 'none'}}>
+    </LinkChange>
+    <LinkChange to={'/about'} style={{}}>
         <p>About</p>
-    </Link>
-    <Link to={'/menu'} style={{textDecoration: 'none'}}>
+    </LinkChange>
+    <LinkChange to={'/menu'} style={{}}>
         <p>Menu</p>
-    </Link>
-    <Link to={'/pages'} style={{textDecoration: 'none'}}>
+    </LinkChange>
+    <LinkChange to={'/pages'} style={{}}>
         <p>Pages</p>
-    </Link>
-    <Link to={'/contact'} style={{textDecoration: 'none'}}>
+    </LinkChange>
+    <LinkChange to={'/contact'} style={{}} >
         <p>Contact</p>
-    </Link>
+    </LinkChange>
     </div>
     <button className='nav_bottom_btn'>Book A Table</button>
     </div>

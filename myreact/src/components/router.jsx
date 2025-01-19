@@ -10,6 +10,8 @@ import NavTop from './nav_top'
 import Footer from './Footer'
 import Detail from '../datails/detail'
 import ArticleDetail from '../datails/articleDetail'
+import NotFound from '../404'
+import LoginComp from '../auth/login'
 
 const RouterComponent = () => {
     return (
@@ -24,6 +26,8 @@ const RouterComponent = () => {
         <Route path='/contact' element={<ContactLink />} />
         <Route path='/menu/detail/:id' element = {<Detail/>}/>
         <Route path='/pages/articledetail/:id' element = {<ArticleDetail/>}/>
+        <Route path= '*' element={<NotFound />}/>
+        <Route path='/login' element={<LoginComp />}/>
     </Routes>
     <Footer />
     </>
