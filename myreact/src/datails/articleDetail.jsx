@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {useNavigate, useParams} from 'react-router-dom'
 import { ContainerDetail } from '../style/detailStyle'
 import { ArticleMoc } from '../mocdata/articleMoc'
@@ -7,8 +7,11 @@ const ArticleDetail = () => {
     let {id} = useParams();
     let navigate = useNavigate();
     const data = ArticleMoc.find((value)=> value.id === Number(id));
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+    },[])
     const handleBack = ()=>{
-        navigate(-1);
+        navigate('/pages');
     }
     const handleNext = ()=>{
         const loc = window.location.href

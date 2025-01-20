@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useNavigate, useParams} from 'react-router-dom'
 import { ContainerDetail } from '../style/detailStyle'
 import { MenuMocbar } from '../mocdata/menuMoc'
@@ -7,8 +7,11 @@ const Detail = () => {
   let {id} = useParams();
   let navigate = useNavigate();
   const data = MenuMocbar.find((value)=> value.id === Number(id));
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[])
   const handleBack = ()=>{
-    navigate(-1);
+    navigate('/menu');
   }
   const handleNext = ()=>{
     const loc = window.location.href
