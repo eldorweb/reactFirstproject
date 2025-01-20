@@ -1,9 +1,11 @@
 import React from 'react'
 import { Container, Main, dataList } from './caravan'
+import Controllers from '../controllers'
 
 const Datalist = () => {
   return (
     <Main>
+    <Controllers />
       {
         dataList.map((value, index) => {
           return <Container key={value.id} to={`./detail/${value.id}`}>

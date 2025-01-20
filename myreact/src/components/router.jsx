@@ -12,6 +12,7 @@ import Detail from '../datails/detail'
 import ArticleDetail from '../datails/articleDetail'
 import NotFound from '../404'
 import LoginComp from '../auth/login'
+import Datalist from '../lesson/datalist'
 
 const RouterComponent = () => {
     return (
@@ -20,7 +21,7 @@ const RouterComponent = () => {
     <NavBottom />
     <Routes>
         <Route path='/' element ={<HomeLink />} />
-        <Route path='/about' element ={<AboutLink />} />
+        <Route path='/about' element ={<Datalist />} />
         <Route path='/menu' element ={<MenuLink />} />
         <Route path='/pages' element={<PagesLink />}/>
         <Route path='/contact' element={<ContactLink />} />

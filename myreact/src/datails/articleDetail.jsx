@@ -1,14 +1,27 @@
 import React from 'react'
-import {useParams} from 'react-router-dom'
+import {useNavigate, useParams} from 'react-router-dom'
 import { ContainerDetail } from '../style/detailStyle'
 import { ArticleMoc } from '../mocdata/articleMoc'
 
 const ArticleDetail = () => {
     let {id} = useParams();
+    let navigate = useNavigate();
     const data = ArticleMoc.find((value)=> value.id === Number(id));
+    const handleBack = ()=>{
+        navigate(-1);
+    }
+    const handleNext = ()=>{
+        const loc = window.location.href
+        const num = loc.substring(loc.lastIndexOf('/')+1)
+        navigate('/pages/articledetail/' + (Number(num)+1));
+    }
     return (
     <ContainerDetail>
     <div className='detail'>
+    <div className='button-wrap'>
+        <button className="button-64" role="button" onClick={handleBack}><span className="text">Back ⏪</span></button>
+        <button className="button-64" role="button" onClick={handleNext}><span className="text">Next ⏩️</span></button>
+        </div>
         <h2>
         & {data.article.title} &.
         </h2>

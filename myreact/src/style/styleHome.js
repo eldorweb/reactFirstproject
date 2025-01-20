@@ -404,6 +404,7 @@ export const ContainerProvide = styled.div`
 
     .provide_right{
         margin-left: -250px;
+        max-width: 900px;
 
         h2{
             font-family: "Playfair Display";
@@ -631,6 +632,8 @@ export const ContainerComment = styled.div`
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
         h2{
             font-family: "Playfair Display";
             font-size: 55px;
