@@ -7,7 +7,7 @@ const Datalist = () => {
     <Main>
     <Controllers />
       {
-        dataList.map((value, index) => {
+        dataList.map((value) => {
           return <Container key={value.id} to={`./detail/${value.id}`}>
             <p>{value.car.name || "broken data"}</p>
             <p>{value.car.company}</p>
