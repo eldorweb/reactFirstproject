@@ -1004,7 +1004,7 @@ export const ContainerMenu =styled.div`
             display: flex;
             gap: 15px;
             margin-bottom: 88px;
-            button{
+            .button{
                 border-radius: 50px;
                 background-color: transparent;
                 border: 1px solid var(--neutral3);
@@ -1012,7 +1012,7 @@ export const ContainerMenu =styled.div`
                 height: 48px;
 
             }
-            button:hover{
+            .button:hover{
                 background-color: var(--red);
                 color: var(--white);
             }
