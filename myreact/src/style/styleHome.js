@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import headerLogo from "../img/jpg/header_bgimg.png"
-import { Link } from "react-router-dom";
+import { NavLink as RouteNavLink } from "react-router-dom";
 
 export const ContainerNavtop = styled.div`
 :root{
@@ -1071,8 +1071,12 @@ export const ContainerMenu =styled.div`
 
 
 
-export const LinkChange = styled(Link)`
+export const LinkChange = styled(RouteNavLink)`
 text-decoration: none;
 color: black;
+&.active{
+    border-radius: 34px;
+    background: #DBDFD0;
+}
 ` 
 
