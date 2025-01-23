@@ -4,6 +4,7 @@ export const MenuMocbar = [
     {
         id: 1,
         menu: {
+            type: 'breakfast',
             photo: 'https://plus.unsplash.com/premium_photo-1692728813377-002de1cceb94?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZnJpZWQlMjBlZ2dzfGVufDB8fDB8fHww',
             photo2: 'https://images.unsplash.com/photo-1655979282314-eb45a7d69959?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJpZWQlMjBlZ2dzfGVufDB8fDB8fHww',
             cost: '$ 9.99',
@@ -17,6 +18,7 @@ export const MenuMocbar = [
     {
         id: 2,
         menu: {
+            type: 'mainDishes',
             photo: 'https://images.unsplash.com/photo-1671572580758-fd91620a1c6d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGF3YWlpYW4lMjBQaXp6YXxlbnwwfHwwfHx8MA%3D%3D',
             photo2: "https://images.unsplash.com/photo-1679310290400-53df391fae3c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SGF3YWlpYW4lMjBQaXp6YXxlbnwwfHwwfHx8MA%3D%3D",
             cost: '$ 15.99',
@@ -31,6 +33,7 @@ export const MenuMocbar = [
     {
         id: 3,
         menu: {
+            type: 'drinks',
             photo: 'https://images.unsplash.com/photo-1652465485213-eb37cb92a34d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8fDA%3D',
             cost: '$ 7.25',
             photo2: "https://images.unsplash.com/photo-1486947799489-3fabdd7d32a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWFydGluZXolMjBDb2NrdGFpbHxlbnwwfHwwfHx8MA%3D%3D",
@@ -45,6 +48,7 @@ export const MenuMocbar = [
     {
         id: 4,
         menu: {
+            type: 'desserts',
             photo: 'https://images.unsplash.com/photo-1657053460900-3a12f32b592f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJlc3RhdXJhbnQlMjBmb29kfGVufDB8fDB8fHww',
             photo2:"https://plus.unsplash.com/premium_photo-1664205766204-d622fa405a8d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QnV0dGVyc2NvdGNoJTIwQ2FrZXxlbnwwfHwwfHx8MA%3D%3D",
             cost: '$ 20.99',
@@ -59,6 +63,7 @@ export const MenuMocbar = [
     {
         id: 5,
         menu: {
+            type: 'drinks',
             photo: 'https://images.unsplash.com/photo-1652690772703-0461a655643d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJlc3RhdXJhbnQlMjBmb29kfGVufDB8fDB8fHww',
             photo2:"https://images.unsplash.com/photo-1656936611703-a1ede070073c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWludCUyMExlbW9uYWRlfGVufDB8fDB8fHww",
             cost: '$ 5.89',
@@ -72,6 +77,7 @@ export const MenuMocbar = [
     {
         id: 6,
         menu: {
+            type: 'desserts',
             photo: 'https://images.unsplash.com/photo-1652465485504-6bab45ec21de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHJlc3RhdXJhbnQlMjBmb29kfGVufDB8fDB8fHww',
             cost: '$ 18.05',
             type: "Chocolate Icecream",
@@ -86,6 +92,7 @@ export const MenuMocbar = [
     {
         id: 7,
         menu: {
+            type: 'mainDishes',
             photo: 'https://images.unsplash.com/photo-1652465485553-37e8a38201f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHJlc3RhdXJhbnQlMjBmb29kfGVufDB8fDB8fHww',
             cost: '$ 12.55',
             type: "Cheese Burger",
@@ -100,6 +107,7 @@ export const MenuMocbar = [
     {
         id: 8,
         menu: {
+            type: 'breakfast',
             photo: 'https://images.unsplash.com/photo-1651440204227-a9a5b9d19712?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJlc3RhdXJhbnQlMjBmb29kfGVufDB8fDB8fHww',
             cost: '$ 12.99',
             type: "Classic Waffles",

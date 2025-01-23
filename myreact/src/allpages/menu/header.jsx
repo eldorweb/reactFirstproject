@@ -8,7 +8,7 @@ import DrinksData from './components/drinks'
 import DessertsData from './components/desserts'
 
 const Menuheader = () => {
-  const [select, setSelect] = useState("")
+  const [select, setSelect] = useState("All")
 
 const handleSelect = (category)=>{
   setSelect(category);
@@ -30,18 +30,6 @@ const handleSelect = (category)=>{
         {select === "MainDishes" && <MainDishesData />}
         {select === "Drinks" && <DrinksData />}
         {select === "Desserts" && <DessertsData />}
-        {/* <div className='grid'>
-          {
-            MenuMocbar.map((value) => {
-              return <LinkChange className='grid_card' key={value.id} to={`./detail/${value.id}`}>
-              <img src={value.menu.photo} alt='none' />
-              <h3>{value.menu.cost || "none"}</h3>
-              <div>{value.menu.type || "none"}</div>
-              <p>{value.menu.word || "none"}</p>
-              </LinkChange>
-            })
-          }
-        </div> */}
       </div>
     </ContainerMenu>
   )

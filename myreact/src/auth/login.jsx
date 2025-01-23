@@ -1,10 +1,10 @@
 import React from 'react'
+import { ContactUs } from '../components/email'
 
 const LoginComp = () => {
     return (
     <div>
-        <input placeholder='name'></input>
-        <label>name</label>
+        <ContactUs />
     </div>
     )
 }
