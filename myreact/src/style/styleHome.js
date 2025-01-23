@@ -121,6 +121,7 @@ export const ContainerNavBottom = styled.div`
     display: flex;
     gap: 20px;
     flex: 50%;
+    cursor: pointer;
 }
 .nav_bottom_list p{
     color: var(--neutral7);
@@ -130,6 +131,7 @@ export const ContainerNavBottom = styled.div`
     padding: 4px 16px;
     border-radius: 34px;
     text-decoration: none;
+    cursor: pointer;
 }
 .nav_bottom_list p:hover{
     background-color: var(--hover_color);
@@ -1003,13 +1005,15 @@ export const ContainerMenu =styled.div`
         .div_wrapper{
             display: flex;
             gap: 15px;
-            margin-bottom: 88px;
             .button{
                 border-radius: 50px;
                 background-color: transparent;
                 border: 1px solid var(--neutral3);
                 width: 150px;
                 height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
             }
             .button:hover{
@@ -1073,10 +1077,25 @@ export const ContainerMenu =styled.div`
 
 export const LinkChange = styled(RouteNavLink)`
 text-decoration: none;
-color: black;
+color: #fff;
+cursor: pointer;
 &.active{
     border-radius: 34px;
     background: #DBDFD0;
 }
 ` 
+export const MenuLinks = styled(RouteNavLink)`
+                text-decoration: none;
+                border-radius: 50px;
+                background-color: transparent;
+                border: 1px solid var(--neutral3);
+                width: 150px;
+                height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+&.active{
+    background-color: var(--red);
+    color: var(--white);
+}`
 

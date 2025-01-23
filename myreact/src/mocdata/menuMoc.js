@@ -3,8 +3,8 @@
 export const MenuMocbar = [
     {
         id: 1,
+        type: 'breakfast',
         menu: {
-            type: 'breakfast',
             photo: 'https://plus.unsplash.com/premium_photo-1692728813377-002de1cceb94?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZnJpZWQlMjBlZ2dzfGVufDB8fDB8fHww',
             photo2: 'https://images.unsplash.com/photo-1655979282314-eb45a7d69959?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJpZWQlMjBlZ2dzfGVufDB8fDB8fHww',
             cost: '$ 9.99',
@@ -17,8 +17,8 @@ export const MenuMocbar = [
     },
     {
         id: 2,
+        type: 'mainDishes',
         menu: {
-            type: 'mainDishes',
             photo: 'https://images.unsplash.com/photo-1671572580758-fd91620a1c6d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGF3YWlpYW4lMjBQaXp6YXxlbnwwfHwwfHx8MA%3D%3D',
             photo2: "https://images.unsplash.com/photo-1679310290400-53df391fae3c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SGF3YWlpYW4lMjBQaXp6YXxlbnwwfHwwfHx8MA%3D%3D",
             cost: '$ 15.99',
@@ -32,9 +32,9 @@ export const MenuMocbar = [
     },
     {
         id: 3,
+        type: 'drinks',
         menu: {
-            type: 'drinks',
-            photo: 'https://images.unsplash.com/photo-1652465485213-eb37cb92a34d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8fDA%3D',
+            photo: 'https://plus.unsplash.com/premium_photo-1698253784572-ec673a97a1eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TWFydGluZXolMjBDb2NrdGFpbHxlbnwwfHwwfHx8MA%3D%3D',
             cost: '$ 7.25',
             photo2: "https://images.unsplash.com/photo-1486947799489-3fabdd7d32a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWFydGluZXolMjBDb2NrdGFpbHxlbnwwfHwwfHx8MA%3D%3D",
             type: "Martinez Cocktail",
@@ -47,9 +47,9 @@ export const MenuMocbar = [
     },
     {
         id: 4,
+        type: 'desserts',
         menu: {
-            type: 'desserts',
-            photo: 'https://images.unsplash.com/photo-1657053460900-3a12f32b592f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJlc3RhdXJhbnQlMjBmb29kfGVufDB8fDB8fHww',
+            photo: 'https://plus.unsplash.com/premium_photo-1664205766204-d622fa405a8d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QnV0dGVyc2NvdGNoJTIwQ2FrZXxlbnwwfHwwfHx8MA%3D%3D',
             photo2:"https://plus.unsplash.com/premium_photo-1664205766204-d622fa405a8d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QnV0dGVyc2NvdGNoJTIwQ2FrZXxlbnwwfHwwfHx8MA%3D%3D",
             cost: '$ 20.99',
             type: "Butterscotch Cake",
@@ -62,9 +62,9 @@ export const MenuMocbar = [
     },
     {
         id: 5,
+        type: 'drinks',
         menu: {
-            type: 'drinks',
-            photo: 'https://images.unsplash.com/photo-1652690772703-0461a655643d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJlc3RhdXJhbnQlMjBmb29kfGVufDB8fDB8fHww',
+            photo: 'https://images.unsplash.com/photo-1656936611703-a1ede070073c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWludCUyMExlbW9uYWRlfGVufDB8fDB8fHww',
             photo2:"https://images.unsplash.com/photo-1656936611703-a1ede070073c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWludCUyMExlbW9uYWRlfGVufDB8fDB8fHww",
             cost: '$ 5.89',
             type: "Mint Lemonade",
@@ -76,9 +76,9 @@ export const MenuMocbar = [
     },
     {
         id: 6,
+        type: 'desserts',
         menu: {
-            type: 'desserts',
-            photo: 'https://images.unsplash.com/photo-1652465485504-6bab45ec21de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHJlc3RhdXJhbnQlMjBmb29kfGVufDB8fDB8fHww',
+            photo: 'https://plus.unsplash.com/premium_photo-1674819647276-c93c08795554?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Q2hvY29sYXRlJTIwSWNlY3JlYW18ZW58MHx8MHx8fDA%3D',
             cost: '$ 18.05',
             type: "Chocolate Icecream",
             word: "Made with eggs, lettuce, salt, oil and other ingredients.",
@@ -91,9 +91,9 @@ export const MenuMocbar = [
     },
     {
         id: 7,
+        type: 'mainDishes',
         menu: {
-            type: 'mainDishes',
-            photo: 'https://images.unsplash.com/photo-1652465485553-37e8a38201f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHJlc3RhdXJhbnQlMjBmb29kfGVufDB8fDB8fHww',
+            photo: 'https://plus.unsplash.com/premium_photo-1667682209935-b6c87cced668?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hlZXNlJTIwQnVyZ2VyfGVufDB8fDB8fHww',
             cost: '$ 12.55',
             type: "Cheese Burger",
             word: "Made with eggs, lettuce, salt, oil and other ingredients.",
@@ -106,9 +106,9 @@ export const MenuMocbar = [
     },
     {
         id: 8,
+        type: 'breakfast',
         menu: {
-            type: 'breakfast',
-            photo: 'https://images.unsplash.com/photo-1651440204227-a9a5b9d19712?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJlc3RhdXJhbnQlMjBmb29kfGVufDB8fDB8fHww',
+            photo: 'https://media.istockphoto.com/id/2186297231/photo/stacked-wafer-rolls-with-reflections-on-a-surface.webp?a=1&b=1&s=612x612&w=0&k=20&c=mOuKwdHRilSWKBhYHIEA5flCkdUH_vDdcEn10EhcEs0=',
             cost: '$ 12.99',
             type: "Classic Waffles",
             word: "Made with eggs, lettuce, salt, oil and other ingredients.",

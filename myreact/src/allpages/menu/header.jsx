@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { ContainerMenu, LinkChange } from '../../style/styleHome'
-import { MenuMocbar } from '../../mocdata/menuMoc'
+import React, { useState } from 'react'
+import { ContainerMenu, MenuLinks } from '../../style/styleHome'
 import AllData from './components/all'
 import BreakfastData from './components/breakfast'
 import MainDishesData from './components/mainDishes'
@@ -19,11 +18,11 @@ const handleSelect = (category)=>{
         <h1>Our Menu</h1>
         <p className='p'>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
         <div className='div_wrapper'>
-          <div className='button' onClick={() => handleSelect('All')}>All</div>
-          <div className='button' onClick={() => handleSelect('Breakfast')}>Breakfast</div>
-          <div className='button' onClick={() => handleSelect('MainDishes')}>Main Dishes</div>
-          <div className='button' onClick={() => handleSelect('Drinks')}>Drinks</div>
-          <div className='button' onClick={() => handleSelect('Desserts')}>Desserts</div>
+          <MenuLinks to={''}><div className='button' onClick={() => handleSelect('All')}>All</div></MenuLinks>
+          <MenuLinks to={''}><div className='button' onClick={() => handleSelect('Breakfast')}>Breakfast</div></MenuLinks>
+          <MenuLinks to={''}><div className='button' onClick={() => handleSelect('MainDishes')}>Main Dishes</div></MenuLinks>
+          <MenuLinks to={''}><div className='button' onClick={() => handleSelect('Drinks')}>Drinks</div></MenuLinks>
+          <MenuLinks to={''}><div className='button' onClick={() => handleSelect('Desserts')}>Desserts</div></MenuLinks>
         </div>
         {select === "All" && <AllData />}
         {select === "Breakfast" && <BreakfastData />}

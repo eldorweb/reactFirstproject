@@ -35,8 +35,7 @@ body{
 }
 
 
-.nav-link.active{
-    border-color: var(--neutral7);
-    background-color: var(--neutral7);
-    color: var(--white);
+.button.active{
+  background-color: var(--red);
+  color: var(--white);
 }
