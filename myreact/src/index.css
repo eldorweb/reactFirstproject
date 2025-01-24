@@ -34,8 +34,3 @@ body{
   --hover_color: #DBDFD0;
 }
 
-
-.button.active{
-  background-color: var(--red);
-  color: var(--white);
-}

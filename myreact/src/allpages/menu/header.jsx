@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ContainerMenu, MenuLinks } from '../../style/styleHome'
+import { ContainerMenu, LinkChange, MenuLinks } from '../../style/styleHome'
 import AllData from './components/all'
 import BreakfastData from './components/breakfast'
 import MainDishesData from './components/mainDishes'
@@ -12,17 +12,26 @@ const Menuheader = () => {
 const handleSelect = (category)=>{
   setSelect(category);
 }
+let buttons = document.querySelectorAll('.button');
+  buttons.forEach((button) =>{
+    button.addEventListener('click', ()=>{
+      buttons.forEach(button =>{
+        button.classList.remove('active')
+      })
+      button.classList.add('active')
+    })
+  })
   return (
     <ContainerMenu>
       <div className='menu'>
         <h1>Our Menu</h1>
         <p className='p'>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
         <div className='div_wrapper'>
-          <MenuLinks to={''}><div className='button' onClick={() => handleSelect('All')}>All</div></MenuLinks>
-          <MenuLinks to={''}><div className='button' onClick={() => handleSelect('Breakfast')}>Breakfast</div></MenuLinks>
-          <MenuLinks to={''}><div className='button' onClick={() => handleSelect('MainDishes')}>Main Dishes</div></MenuLinks>
-          <MenuLinks to={''}><div className='button' onClick={() => handleSelect('Drinks')}>Drinks</div></MenuLinks>
-          <MenuLinks to={''}><div className='button' onClick={() => handleSelect('Desserts')}>Desserts</div></MenuLinks>
+          <div className='button active' onClick={() => handleSelect('All')}>All</div>
+          <div className='button' onClick={() => handleSelect('Breakfast')}>Breakfast</div>
+          <div className='button' onClick={() => handleSelect('MainDishes')}>Main Dishes</div>
+          <div className='button' onClick={() => handleSelect('Drinks')}>Drinks</div>
+          <div className='button' onClick={() => handleSelect('Desserts')}>Desserts</div>
         </div>
         {select === "All" && <AllData />}
         {select === "Breakfast" && <BreakfastData />}

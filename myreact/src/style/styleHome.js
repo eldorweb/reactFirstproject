@@ -1020,6 +1020,10 @@ export const ContainerMenu =styled.div`
                 background-color: var(--red);
                 color: var(--white);
             }
+            .button.active{
+                background-color: var(--red);
+                color: var(--white);
+            }
         }
         .grid{
             display: grid;
