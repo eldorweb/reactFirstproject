@@ -24,11 +24,11 @@ const RouterComponent = () => {
         <Route path='/about' element ={<Datalist />} />
         <Route path='/menu' element ={<MenuLink />} />
         <Route path='/pages' element={<PagesLink />}/>
-        <Route path='/contact' element={<ContactLink />} />
+        <Route path='/login' element={<ContactLink />} />
         <Route path='/menu/detail/:id' element = {<Detail/>}/>
         <Route path='/pages/articledetail/:id' element = {<ArticleDetail/>}/>
         <Route path= '*' element={<NotFound />}/>
-        <Route path='/login' element={<LoginComp />}/>
+        <Route path='/contact' element={<LoginComp />}/>
     </Routes>
     <Footer />
     </>
