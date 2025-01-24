@@ -16,7 +16,12 @@ const ArticleDetail = () => {
     const handleNext = ()=>{
         const loc = window.location.href
         const num = loc.substring(loc.lastIndexOf('/')+1)
-        navigate('/pages/articledetail/' + (Number(num)+1));
+        if(num > 11){
+            navigate('/pages/articledetail/12');
+            alert("you have reached the last page!!!")
+        } else{
+            navigate('/pages/articledetail/' + (Number(num)+1));
+        }
     }
     return (
     <ContainerDetail>
