@@ -13,6 +13,8 @@ import ArticleDetail from '../datails/articleDetail'
 import NotFound from '../404'
 import LoginComp from '../auth/login'
 import Datalist from '../lesson/datalist'
+import BasicMap from '../map/map'
+import CarouselCom from '../carousel/carousel'
 
 const RouterComponent = () => {
     return (
@@ -29,6 +31,8 @@ const RouterComponent = () => {
         <Route path='/pages/articledetail/:id' element = {<ArticleDetail/>}/>
         <Route path= '*' element={<NotFound />}/>
         <Route path='/contact' element={<LoginComp />}/>
+        <Route path='/map' element={<BasicMap />}/>
+        <Route path='/carousel' element={<CarouselCom />}/>
     </Routes>
     <Footer />
     </>

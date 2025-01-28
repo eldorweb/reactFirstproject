@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "google-map-react": "^2.2.1",
+    "react-kakao-maps-sdk": "^1.1.27",
+    "react-responsive-carousel": "^3.2.23",
     "reactjs-popup": "^2.0.6"
   }
 }
