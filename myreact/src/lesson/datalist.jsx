@@ -6,17 +6,6 @@ const Datalist = () => {
   return (
     <Main>
     <Controllers />
-      {
-        dataList.map((value) => {
-          return <Container key={value.id} to={`./detail/${value.id}`}>
-            <p>{value.car.name || "broken data"}</p>
-            <p>{value.car.company}</p>
-            <p>{value.car.company}</p>
-            <p>{value.car.cost}</p>
-            <p>{value.car.date}</p>
-          </Container>
-        })
-      }
     </Main>
   )
 }

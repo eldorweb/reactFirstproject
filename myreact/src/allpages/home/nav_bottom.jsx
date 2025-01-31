@@ -28,7 +28,10 @@ const NavBottom = () => {
         <p>Contact</p>
     </LinkChange>
     <LinkChange to={'/login'} style={{}} >
-        <p>Login</p>
+        <p>Loading</p>
+    </LinkChange>
+    <LinkChange to={'/vhmenu'} style={{}} >
+        <p>VHmenu</p>
     </LinkChange>
     </div>
     <button className='nav_bottom_btn'>Book A Table</button>

@@ -12,7 +12,7 @@ const Header = () => {
       <div className='header_btndiv'>
         <button>Book A Table</button>
         <Popup
-    trigger={<button className="button"> Open Modal </button>}
+    trigger={<button className="button"> Explore Menu </button>}
     modal
     nested
     >
@@ -34,7 +34,7 @@ const Header = () => {
         </div>
         <div className="actions">
             <Popup
-            trigger={<button className="button"> Trigger </button>}
+            trigger={<button className="button" role='button'> Trigger </button>}
             position="top center"
             nested
             >

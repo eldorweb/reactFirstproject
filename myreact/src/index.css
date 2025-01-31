@@ -36,6 +36,7 @@ body{
 
 .modal {
   font-size: 12px;
+  padding: 20px 30px;
 }
 .modal > .header {
   width: 100%;
@@ -47,12 +48,54 @@ body{
 .modal > .content {
   width: 100%;
   padding: 10px 5px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 40px;
 }
 .modal > .actions {
   width: 100%;
   padding: 10px 5px;
   margin: auto;
   text-align: center;
+
+}
+.modal > .actions > .button{
+  margin-right: 30px;
+  background-color: #0078d0;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.modal> .actions .button:hover{
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+.modal> .actions .button::before{
+    background-color: initial;
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius: 125px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+    width: 92%;
 }
 .modal > .close {
   cursor: pointer;
@@ -65,7 +108,13 @@ body{
   font-size: 24px;
   background: #ffffff;
   border-radius: 18px;
-  border: 1px solid #cfcece;
+  border: none;
+  transition: transform 1s ease;
+}
+.modal > .close:hover{
+  background-color: red;
+  transform: scale(1.1);
+  color: #fff;
 }
 .popup-content {
   margin: auto;

@@ -59,8 +59,12 @@ export const ContainerNavtop = styled.div`
 }
 .nav_top_right{
     img{
-        margin-right: 5px;
+        cursor: pointer;
     }
+    img:hover{
+            transform: scale(1.1);
+            opacity: 0.6;
+        }
 }
 }
 `
@@ -225,6 +229,7 @@ export const ContainerHeader = styled.div`
     font-weight: 700;
     line-height: 24px;
 }
+
 .header_btndiv button:hover{
     border-color: var(--red);
     background-color: var(--red);

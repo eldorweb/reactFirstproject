@@ -23,7 +23,7 @@ const RouterComponent = () => {
     <NavBottom />
     <Routes>
         <Route path='/' element ={<HomeLink />} />
-        <Route path='/about' element ={<Datalist />} />
+        <Route path='/about' element ={<AboutLink />} />
         <Route path='/menu' element ={<MenuLink />} />
         <Route path='/pages' element={<PagesLink />}/>
         <Route path='/login' element={<ContactLink />} />
@@ -33,6 +33,7 @@ const RouterComponent = () => {
         <Route path='/contact' element={<LoginComp />}/>
         <Route path='/map' element={<BasicMap />}/>
         <Route path='/carousel' element={<CarouselCom />}/>
+        <Route path='/vhmenu' element={<Datalist />}/>
     </Routes>
     <Footer />
     </>
