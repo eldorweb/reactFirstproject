@@ -1,9 +1,16 @@
 import React from 'react'
-import Aboutheader from './header'
+import Provide from '../home/Provide'
+import Comment from '../home/Comment'
+import AboutVideo from './video'
 
 const AboutLink = () => {
   return (
-    <Aboutheader />
+    <>
+        <Provide />
+        <AboutVideo/>
+        <Comment />
+    </>
+
   )
 }
 
