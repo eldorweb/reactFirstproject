@@ -30,11 +30,10 @@ const NavBottom = () => {
     <LinkChange to={'/login'} style={{}} >
         <p>Loading</p>
     </LinkChange>
-    <LinkChange to={'/vhmenu'} style={{}} >
-        <p>VHmenu</p>
-    </LinkChange>
     </div>
+    <LinkChange to={'/vhmenu'} style={{background:"transparent"}} >
     <button className='nav_bottom_btn'>Book A Table</button>
+    </LinkChange>
     </div>
     </ContainerNavBottom>
     )
