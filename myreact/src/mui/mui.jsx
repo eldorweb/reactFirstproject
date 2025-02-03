@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '@mui/material/Button';
-import { Autocomplete, Rating } from '@mui/material';
+import { Autocomplete, Pagination, Rating } from '@mui/material';
 import { MuiContainer } from './muiStyle';
 import top100Films from './top100movies';
 import TextField from '@mui/material/TextField';
@@ -467,6 +467,10 @@ const Mui = () => {
         <Typography>On</Typography>
       </Stack>
     </FormGroup>
+
+    <Stack spacing={2}>
+      <Pagination count={10} variant="outlined" color="secondary" />
+    </Stack>
     
         </MuiContainer>
     )

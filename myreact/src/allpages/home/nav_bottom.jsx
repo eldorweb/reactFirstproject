@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../../img/svg/logo.svg'
 import { ContainerNavBottom, LinkChange } from '../../style/styleHome'
 import { Link } from 'react-router-dom'
+import message from './message.svg'
 
 const NavBottom = () => {
     return (
@@ -34,6 +35,10 @@ const NavBottom = () => {
     <LinkChange to={'/vhmenu'} style={{background:"transparent"}} >
     <button className='nav_bottom_btn'>Book A Table</button>
     </LinkChange>
+    <LinkChange to={'/chat'} style={{background:"transparent"}} >
+    <img src={message} style={{width:'30px', marginLeft:'30px' }}/>
+    </LinkChange>
+    
     </div>
     </ContainerNavBottom>
     )
