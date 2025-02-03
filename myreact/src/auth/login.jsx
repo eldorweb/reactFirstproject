@@ -2,8 +2,10 @@ import React from 'react'
 import { ContainerLogin } from '../style/loginstyle'
 import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { Button, Snackbar } from '@mui/material';
 
 const LoginComp = () => {
+    const [open, setOpen] = React.useState(false);
     const form = useRef();
     const sendEmail = (e) => {
     e.preventDefault();
@@ -13,13 +15,27 @@ const LoginComp = () => {
         })
         .then(
         () => {
-            alert('SUCCESS!');
+            setOpen(true);
             form.current.reset();
         },
         (error) => {
             alert('FAILED...', error.text);
         },
         );
+    };
+    // --------------------------------
+
+
+    // const handleClick = () => {
+
+    // };
+
+    const handleClose = (event, reason) => {
+    if (reason === 'clickaway') {
+        return;
+    }
+
+    setOpen(false);
     };
 
     return (
@@ -48,6 +64,13 @@ const LoginComp = () => {
         <textarea name="message" placeholder='Write your messae' required/>
     </div>
         <input type="submit" value="Send" className='submit'/>
+        {/* <Button className='submit' onClick={handleClick}>Open Snackbar</Button> */}
+        <Snackbar
+        open={open}
+        autoHideDuration={5000}
+        onClose={handleClose}
+        message="Your message is successfully sent to the admin. Thank you very much!!!"
+        />
     </form>
     <div className='callUs'>
         <div className='first'>

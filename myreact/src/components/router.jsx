@@ -15,6 +15,7 @@ import LoginComp from '../auth/login'
 import Datalist from '../lesson/datalist'
 import BasicMap from '../map/map'
 import CarouselCom from '../carousel/carousel'
+import Mui from '../mui/mui'
 
 const RouterComponent = () => {
     return (
@@ -34,6 +35,7 @@ const RouterComponent = () => {
         <Route path='/map' element={<BasicMap />}/>
         <Route path='/carousel' element={<CarouselCom />}/>
         <Route path='/vhmenu' element={<Datalist />}/>
+        <Route path='/mui' element={<Mui />}/>
     </Routes>
     <Footer />
     </>
