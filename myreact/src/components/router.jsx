@@ -37,7 +37,7 @@ const RouterComponent = () => {
         <Route path='/carousel' element={<CarouselCom />}/>
         <Route path='/vhmenu' element={<Datalist />}/>
         <Route path='/mui' element={<Mui />}/>
-        <Route path='/chat' element={<App />}/>
+        <Route path='/chat' element={<App />}/> 
 
     </Routes>
     <Footer />

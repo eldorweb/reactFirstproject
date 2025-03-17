@@ -8,7 +8,7 @@ const ArticleDetail = () => {
     let navigate = useNavigate();
     const data = ArticleMoc.find((value)=> value.id === Number(id));
     useEffect(()=>{
-        window.scrollTo(0, 0);
+        window.scrollTo(0, 0); 
     },[])
     const handleBack = ()=>{
         navigate('/pages');

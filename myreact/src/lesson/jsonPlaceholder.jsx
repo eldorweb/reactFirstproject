@@ -20,7 +20,7 @@ if(!response){
 const data = await response.json();
 setTodos(data);
 // when it catch the error
-    } catch (err) {
+    } catch (err) { 
         setError(err.message)
 // for the loading part
     } finally{

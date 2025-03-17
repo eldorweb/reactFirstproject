@@ -50,7 +50,7 @@ export const ArticleMoc =[
             ing:"To create gluten-free sushi, start with sushi rice, which should ideally be short-grain white rice. Season the cooked rice using a blend of gluten-free rice vinegar, sugar, and salt. The nori sheets, used to wrap the sushi, must be labeled gluten-free since some brands may process their products in facilities where cross-contamination can occur. For fillings, fresh vegetables like cucumber, avocado, carrots, and bell peppers add vibrant flavors and textures. Sushi-grade tuna, salmon, or shrimp are excellent seafood options, while cooked chicken, tofu, or certified gluten-free imitation crab provide versatile alternatives. When it comes to dipping sauces and garnishes, gluten-free soy sauce or tamari is essential, and it is important to ensure that pickled ginger and wasabi are free from gluten-containing additives.",
             tool:"To prepare sushi at home, you will need the following tools: Bamboo sushi mat (makisu), Sharp knife, Plastic wrap (optional), Small bowl of water for dipping your fingers",
             conc:"Preparing gluten-free sushi at home is an empowering way to enjoy this beloved dish while catering to your dietary needs. By selecting gluten-free alternatives and fresh ingredients, you can craft sushi rolls that are both safe and scrumptious. Whether you're hosting a dinner party or simply indulging in a personal treat, gluten-free sushi is a versatile and satisfying option. So, gather your ingredients, roll up your sleeves, and start your sushi-making adventure today!",
-        },
+        }, 
     },
     {
         id: 5,
@@ -145,7 +145,7 @@ export const ArticleMoc =[
     },
     {
         id: 12,
-        article: {
+        article: { 
             photo: 'https://images.unsplash.com/photo-1586852855256-470372be1541?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fHByZXBhcmluZyUyMGZvb2R8ZW58MHx8MHx8fDA%3D',
             date: 'January 3, 2023',
             title: 'Top 20 simple and quick desserts for kids',
